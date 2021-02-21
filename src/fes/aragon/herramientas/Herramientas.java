@@ -30,7 +30,8 @@ public class Herramientas {
             FileReader fr = new FileReader(f);//Listo para leerlo
             BufferedReader bf = new BufferedReader(fr); //Buffer para trabajar con el flujo bytes
             String cad = "";
-            while((cad=bf.readLine()) != null){//Lee la linea hasta que encuente un valor null
+            cad=bf.readLine();
+            while(cad != null){//Lee la linea hasta que encuente un valor null
                 lineas.add(cad); //Le añade a lineas el valor de la cadena                
                 cad = bf.readLine();
             }
