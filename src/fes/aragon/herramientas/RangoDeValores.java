@@ -15,5 +15,12 @@ public class RangoDeValores {
                 valido = true;
         }
         return valido;
-        } 
+        }
+    public static boolean fin_Cadena(char letra){
+        boolean valido = false;
+        if (letra == 59){
+            valido = true;
+        }
+        return valido;
+    }
 }

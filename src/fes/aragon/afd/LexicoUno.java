@@ -60,6 +60,7 @@ public class LexicoUno {
                 }
                 linea++;
                 estado = 1;
+                simbolo = ' ';
             } 
         } 
         catch (ErrorLexico ex) {
@@ -72,5 +73,3 @@ public class LexicoUno {
         }
     }           
 }
-        
-      
